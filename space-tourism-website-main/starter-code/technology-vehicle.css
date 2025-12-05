@@ -53,6 +53,7 @@ body {
   justify-content: space-between;
   margin-left: 120px;
   font-size: 22px;
+  text-decoration: none;
 }
 .thirdspan {
   border: 2px solid dimgrey;
@@ -101,4 +102,31 @@ body {
   width: 35rem;
   margin-left: 150px;
   margin-top: -25px;
+}
+.thirdspan {
+  text-decoration: none;
+  color: inherit;
+}
+.fourthspan {
+  text-decoration: none;
+  color: inherit;
+}
+.fifthspan {
+  text-decoration: none;
+  color: inherit;
+}
+.thirdspan:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+.fourthspan:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+.fifthspan:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
 }
