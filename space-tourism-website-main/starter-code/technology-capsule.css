@@ -115,3 +115,6 @@ body {
   color: black;
   border-color: white;
 }
+
+@media screen and (max-width: 450px) {
+}
