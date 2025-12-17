@@ -1,0 +1,257 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  background-image: url("/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg");
+  height: 100vh;
+  width: 100%;
+  color: white;
+  padding: 5px 100px;
+  /* background-color: red; */
+}
+
+.logodiv {
+  display: flex;
+  justify-content: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.hamdiv {
+  display: none;
+}
+
+.navdiv {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.055);
+
+  margin-top: -25px;
+  height: 80px;
+  width: 50%;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.img {
+  width: 40px;
+}
+.ulbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.firstdiv {
+  display: inline;
+}
+
+.emptydiv {
+  width: 450px;
+  height: 0.2px;
+  background-color: rgb(94, 94, 94);
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+.pick {
+  font: 40px;
+  word-spacing: 5px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.text_one {
+  color: burlywood;
+}
+.planet {
+  width: 100%;
+  height: 400px;
+  margin-top: 70px;
+  /* background-color: yellow; */
+  display: flex;
+}
+
+.plannet_image {
+  width: 50%;
+  height: inherit;
+  /* background-color: red; */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about_plannet {
+  width: 50%;
+  height: inherit;
+  /* color: red; */
+  /* background-color: blue; */
+  padding: 5px;
+}
+
+.plannet_nav {
+  width: 80%;
+  height: 20px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+a:active {
+  border-bottom: 2px solid white;
+}
+
+.plannet_name {
+  font-size: 100px;
+  margin: 20px 0px;
+}
+.border {
+  width: 80%;
+  margin-top: 40px;
+  border-top: 1px solid white;
+}
+
+.travel_detail {
+  width: 60%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* mobile */
+
+@media screen and (max-width: 450px) {
+  .parent {
+    background-image: url("/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg");
+    height: 100vh;
+    padding: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: red; */
+  }
+
+  .navdiv {
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+    max-width: 300px;
+    right: 0;
+  }
+
+  .hamdiv {
+    display: flex;
+    justify-content: right;
+  }
+  .hamdiv2 {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    max-width: 50px;
+    right: 0;
+    top: 5%;
+    transition: 3s ease;
+  }
+  .hamnav {
+    position: relative;
+  }
+  .empty {
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    transform: translate(-50%, 50%) rotate(45deg);
+    background-color: rgba(29, 29, 29, 0.685);
+  }
+  .ham {
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    top: 60%;
+    left: 50%;
+
+    border-radius: 25px;
+    transform: translate(-50%, 50%) rotate(-45deg);
+    background-color: rgba(29, 29, 29, 0.685);
+  }
+
+  .navbar {
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.342);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    right: -300px;
+    transition: 3s ease;
+    color: rgb(15, 15, 15);
+  }
+
+  .ulbar {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: -300px;
+  }
+  .logodiv {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .emptydiv {
+    display: none;
+  }
+  .planet {
+    margin-top: 20px;
+    display: block;
+  }
+  .plannet_image {
+    width: 100%;
+  }
+  .image {
+    /* width: 100%; */
+    height: 70%;
+    /* object-fit: contain; */
+  }
+  .about_plannet {
+    width: 100%;
+    margin-top: -70px;
+  }
+
+  .plannet_name {
+    font-size: 80px;
+    margin: 20px 0px;
+  }
+
+  .border {
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  .travel_detail {
+    width: 90%;
+  }
+}
