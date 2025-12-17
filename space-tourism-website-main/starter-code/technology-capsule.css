@@ -1,6 +1,11 @@
 body {
   background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
 }
+
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url("../fonts/Barlow/Barlow-Thin.tff") format("truetype");
+}
 .logodiv {
   display: flex;
   justify-content: left;
@@ -36,6 +41,7 @@ body {
   justify-content: space-around;
   list-style-type: none;
   font-size: 18px;
+  font-family: "Barlow", sans-serif;
 }
 
 .firstdiv {
@@ -48,9 +54,11 @@ body {
   margin-top: 80px;
   margin-left: 150px;
   font-size: 23px;
+  font-family: "Barlow", sans-serif;
 }
 .firstspan {
   color: dimgray;
+  font-family: "Barlow", sans-serif;
 }
 .fourthdiv {
   display: flex;
@@ -111,6 +119,7 @@ body {
   margin-left: 80px;
   margin-top: -25px;
   line-height: 35px;
+  font-family: "Barlow", sans-serif;
 }
 .image {
   margin-top: -70px;
