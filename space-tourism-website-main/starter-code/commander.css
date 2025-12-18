@@ -70,12 +70,20 @@ body {
   display: inline;
 }
 
-.header {
+.emptydiv {
+  width: 530px;
+  height: 0.2px;
+  background-color: rgb(94, 94, 94);
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+/* .header {
   display: flex;
   justify-content: space-between;
   width: auto;
   height: 40px;
-}
+} */
 
 .perfectbody {
   display: flex;
@@ -86,7 +94,7 @@ body {
 
 .image {
   margin-left: 100px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .line_btns {
@@ -115,29 +123,23 @@ body {
   font-family: "Barlow", sans-serif;
   display: flex;
   flex-direction: column;
+  margin-left: 100px;
 }
 
 .text h2 {
   font-family: "Barlow", sans-serif;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 .text h3 {
   font-family: "Barlow", sans-serif;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
-.text p {
+.text_1 {
   font-family: "Barlow", sans-serif;
-  line-height: 20px;
-  font-size: 15px;
-}
-
-.emptydiv {
-  width: 530px;
-  height: 0.2px;
-  background-color: rgb(94, 94, 94);
-  margin-left: 150px;
-  margin-top: -50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 500px;
 }
 
 @media screen and (max-width: 450px) {
@@ -223,14 +225,14 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 90px;
     height: auto;
   }
 
   .image {
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-bottom: none;
     height: auto;
   }
@@ -245,7 +247,7 @@ body {
 
   .text {
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 0 20px;
   }
 
@@ -257,8 +259,9 @@ body {
     margin-bottom: 8px;
   }
 
-  .text p {
-    font-size: 19px;
+  .text_1 {
+    width: auto;
+    font-size: 17px;
     line-height: 25px;
   }
 
@@ -266,15 +269,9 @@ body {
     justify-content: center;
     margin-top: 30px;
   }
-}
 
-@media (max-width: 912px) {
-  .body {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 150px;
-    height: auto;
+  .btn {
+    width: 12px;
+    height: 12px;
   }
 }
