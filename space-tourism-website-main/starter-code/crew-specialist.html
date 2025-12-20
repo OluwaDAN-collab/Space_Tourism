@@ -9,51 +9,83 @@
 </head>
 <body>
   <div>
-<div class="header">
-  <img src="./assets/shared/logo.svg" alt="logo">
-<div class="hr"></div>
-<p class="hamburger" id="hamburger"> ☰</p>
-</button>
-  <div class="buttons" id="nav">
-  <button>
-  00 Home
-</button>
- <button> 
-  01 Destination
-  </button>
-  <button>
-    02 Crew
-    </button>
-    <button>
-  03 Technology
-  </button>
-  </div>
-</div>
-<div class="body">
-   <div class="text"> 
-  <h2>02 Meet your crew</h2>
-  <br>
-  <!-- </div> -->
-  <!-- <div class="pilot"> -->
-  <h3>Mission Specialist</h3>
-  <h1>Mark Shuttleworth</h1>
-  <p>
-    Mark Richard Shuttleworth is the founder and CEO of<br> Canonical, the company
-    behind Linux-based<br> Ubuntu operating system. Shuttleworth became the <br> 
-    first South African to travel to space as a space <br>tourist.
-  </p>
-  <div class="line_btns_1">
-    <input class= "btn_1" type="button" id="myButton_1" />
-    <input class= "btn_1" type="button" id="myButton_2" />
-    <input class= "btn_1" type="button" id="myButton_3" />
-    <input class= "btn_1" type="button" id="myButton_4" />
-  </div>
-  </div>
-  <div class="image"> 
+    <header class="firstdiv_specialist">
+        <div class="logodiv_specialist">
+          <img
+            src="/space-tourism-website-main/starter-code/assets/shared/logo.svg"
+            alt=" logo image"
+            class="img"
+          />
+        </div>
+        <div class="hamburgerdiv_specialist">
+          <div class="hamdiv_specialist">
+            <img
+              src="/space-tourism-website-main/starter-code/assets/shared/icon-hamburger.svg"
+              alt="Hamburger icon"
+              class="Hamburger"
+            />
+          </div>
+          <div class="navdiv_specialist" id="container">
+            <nav class="navbar">
+              <div class="hamdiv2">
+                <nav class="hamnav">
+                  <span class="empty"></span>
+                  <span class="ham"> </span>
+                </nav>
+              </div>
+              <ul class="ulbar_specialist">
+                <li><span>00</span> Home</li>
+                <li><span>01</span> Destination</li>
+                <li><span>02</span> Crew</li>
+                <li><span>03</span> Technology</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    <div class="emptydiv_specialist"></div>
+    <div class="body">
+     <div class="text"> 
+        <h2>02 Meet your crew</h2>
+        <h3>Mission Specialist</h3>
+        <h1>Mark Shuttleworth</h1>
+       <p class="textSpecialist">Mark Richard Shuttleworth is the founder and CEO of Canonical, 
+         the company behind Linux-based Ubuntu operating system. Shuttleworth became the 
+         first South African to travel to space as a space tourist. </p>
+      <div class="line_btns_1">
+          <input
+            class="btn"
+            type="button"
+            id="myButton_1"
+            data-url="crew-engineer.html"
+          />
+          <input
+            class="btn"
+            type="button"
+            id="myButton_2"
+            data-url="crew-commander.html"
+          />
+          <input
+            class="btn active"
+            type="button"
+            id="myButton_3"
+            data-url="crew-specialist.html"
+          />
+          <input
+            class="btn"
+            type="button"
+            id="myButton_4"
+            data-url="crew-pilot.html"
+          />
+      </div>
+    </div>
+    <div class="image"> 
      <img src="./assets/crew/image-mark-shuttleworth.png">
     </div> 
-  </div> 
   </div>
+
+  <script src="index.js"></script>
   <script src="specialist.js"></script>
 </body>
 </html>
+
