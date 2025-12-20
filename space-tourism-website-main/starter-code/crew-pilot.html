@@ -8,54 +8,84 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
 </head>
 <body>
-  <section class="crew">
-  <div class="crew-content">
-<div class="header">
-  <img src="./assets/shared/logo.svg" alt="logo">
-<div class="hr"></div>
-<button class="hamburger" id="hamburger"> ☰</button>
-</button>
-  <div class="buttons" id="nav">
-  <button>
-  00 Home
-</button>
- <button> 
-  01 Destination
-  </button>
-  <button>
-    02 Crew
-    </button>
-    <button>
-  03 Technology
-  </button>
-  </div>
-</div>
-<div class="body">
-   <div class="text"> 
-  <h2>02 Meet your crew</h2>
-  <br>
-  <!-- </div> -->
-  <!-- <div class="pilot"> -->
-  <h3>Pilot</h3>
-  <h1>Victor Glover</h1>
-  <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-  International Space Station. Glover is a commander in the U.S. Navy where 
-  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-  station systems flight engineer. 
-  </p>
-  <div class="line_btns_1">
-    <input class="btn_1" type="button" id="myButton_1" />
-    <input class="btn_1" type="button" id="myButton_2" />
-    <input class="btn_1" type="button" id="myButton_3" />
-    <input class="btn_1" type="button" id="myButton_4" />
-  </div>
-  </div>
-  <div class="image"> 
+  <div>
+    <header class="firstdiv_pilot">
+        <div class="logodiv_pilot">
+          <img
+            src="/space-tourism-website-main/starter-code/assets/shared/logo.svg"
+            alt=" logo image"
+            class="img"
+          />
+        </div>
+        <div class="hamburgerdiv_pilot">
+          <div class="hamdiv_pilot">
+            <img
+              src="/space-tourism-website-main/starter-code/assets/shared/icon-hamburger.svg"
+              alt="Hamburger icon"
+              class="Hamburger"
+            />
+          </div>
+          <div class="navdiv_pilot" id="container">
+            <nav class="navbar">
+              <div class="hamdiv2">
+                <nav class="hamnav">
+                  <span class="empty"></span>
+                  <span class="ham"> </span>
+                </nav>
+              </div>
+              <ul class="ulbar_pilot">
+                <li><span>00</span> Home</li>
+                <li><span>01</span> Destination</li>
+                <li><span>02</span> Crew</li>
+                <li><span>03</span> Technology</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    <div class="emptydiv_pilot"></div>
+    <div class="body">
+     <div class="text"> 
+        <h2>02 Meet your crew</h2>
+        <h3>Pilot</h3>
+        <h1>Victor Glover</h1>
+       <p class="textPilot">Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+         International Space Station. Glover is a commander in the U.S. Navy where 
+         he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
+         station systems flight engineer. </p>
+      <div class="line_btns_1">
+          <input
+            class="btn"
+            type="button"
+            id="myButton_1"
+            data-url="crew-engineer.html"
+          />
+          <input
+            class="btn"
+            type="button"
+            id="myButton_2"
+            data-url="crew-commander.html"
+          />
+          <input
+            class="btn"
+            type="button"
+            id="myButton_3"
+            data-url="crew-specialist.html"
+          />
+          <input
+            class="btn active"
+            type="button"
+            id="myButton_4"
+            data-url="crew-pilot.html"
+          />
+      </div>
+    </div>
+    <div class="image"> 
      <img src="./assets/crew/image-victor-glover.png">
     </div> 
-  </div> 
   </div>
-  </section>
+  
+  <script src="index.js"></script>
   <script src="pilot.js"></script>
 </body>
 </html>

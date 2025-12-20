@@ -1,9 +1,11 @@
 :root {
   --blue-300: #d0d6f9;
   --blue-900: #ffffff;
+  --button-blue: #007bff;
   --rgb-200: rgb(15, 15, 15);
   --rgb-900: rgb(94, 94, 94);
   --rgba-200: rgba(15, 15, 15, 0.685);
+  --rgba-600: rgba(255, 255, 255, 0.342);
   --rgba-900: rgba(255, 255, 255, 0.055);
 }
 
@@ -70,20 +72,13 @@ body {
   display: inline;
 }
 
-.emptydiv {
+.emptydiv_commander {
   width: 530px;
   height: 0.2px;
-  background-color: rgb(94, 94, 94);
+  background-color: var(--rgb-900);
   margin-left: 150px;
   margin-top: -50px;
 }
-
-/* .header {
-  display: flex;
-  justify-content: space-between;
-  width: auto;
-  height: 40px;
-} */
 
 .perfectbody {
   display: flex;
@@ -94,7 +89,7 @@ body {
 
 .image {
   margin-left: 100px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .line_btns {
@@ -110,6 +105,10 @@ body {
   background-color: var(--blue-300);
   border: none;
   cursor: pointer;
+}
+
+.btn.active {
+  background-color: var(--button-blue);
 }
 
 .text {
