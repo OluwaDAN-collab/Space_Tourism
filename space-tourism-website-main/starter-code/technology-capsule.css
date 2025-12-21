@@ -31,6 +31,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  backdrop-filter: blur(3px);
 }
 .img {
   width: 40px;
@@ -42,6 +43,15 @@ body {
   list-style-type: none;
   font-size: 18px;
   font-family: "Barlow", sans-serif;
+}
+ul a {
+  text-decoration: none;
+  color: inherit;
+}
+ul a .active {
+  border-bottom-style: solid;
+  border-bottom: 10px;
+  border-bottom-color: white;
 }
 
 .firstdiv {
@@ -172,7 +182,12 @@ body {
 @media screen and (max-width: 450px) {
   body {
     background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg);
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
   }
+
   .navdiv {
     display: flex;
     justify-content: right;
