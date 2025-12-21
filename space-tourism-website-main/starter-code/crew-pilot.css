@@ -56,6 +56,15 @@ body {
   list-style-type: none;
   font-size: 18px;
 }
+ul a {
+  text-decoration: none;
+  color: inherit;
+}
+ul a .active {
+  border-bottom-style: solid;
+  border-bottom: 10px;
+  border-bottom-color: white;
+}
 
 .firstdiv_pilot {
   display: inline;
