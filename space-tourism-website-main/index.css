@@ -1,5 +1,5 @@
 body {
-  background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+  background-image: url(/space-tourism-website-main/assets/home/background-home-desktop.jpg);
 
   background-size: cover;
 }
@@ -117,7 +117,7 @@ body {
 }
 @media screen and (max-width: 450px) {
   body {
-    background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg);
+    background-image: url(/space-tourism-website-main/assets/home/background-home-mobile.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

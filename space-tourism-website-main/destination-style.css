@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .parent {
-  background-image: url("/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg");
+  background-image: url("/space-tourism-website-main/assets/destination/background-destination-desktop.jpg");
   height: 100vh;
   width: 100%;
   color: white;
@@ -149,7 +149,7 @@ a:active {
 
 @media screen and (max-width: 450px) {
   .parent {
-    background-image: url("/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg");
+    background-image: url("/space-tourism-website-main/assets/destination/background-destination-mobile.jpg");
     height: 100vh;
     padding: 35px;
     background-repeat: no-repeat;

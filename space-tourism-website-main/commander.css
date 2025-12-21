@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   height: auto;
-  background-image: url("./assets/crew/background-crew-desktop.jpg");
+  background-image: url("/space-tourism-website-main/assets/crew/background-crew-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -153,7 +153,7 @@ ul a .active {
 
 @media screen and (max-width: 450px) {
   body {
-    background-image: url("./assets/crew/background-crew-mobile.jpg");
+    background-image: url("/space-tourism-website-main/assets/crew/background-crew-mobile.jpg");
   }
   .navdiv_commander {
     display: flex;
