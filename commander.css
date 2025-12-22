@@ -272,20 +272,14 @@ ul a .active {
   }
 
   .image {
-    justify-content: center;
-    align-items: center;
     margin-top: 30px;
-    margin-bottom: none;
-    height: auto;
+    margin-bottom: 20px;
+
     margin-left: 30px;
   }
 
   .image img {
-    display: block;
-    width: 380px;
-    height: auto;
-    padding: none;
-    line-height: 0;
+    width: 250px;
   }
 
   .text {

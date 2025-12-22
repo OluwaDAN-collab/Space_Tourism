@@ -256,7 +256,7 @@ ul a .active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-       height: 250px;
+    height: 250px;
     margin-top: 40px;
     margin-left: 40px;
   }
@@ -278,15 +278,11 @@ ul a .active {
   }
 
   .image {
-    justify-content: center;
-    align-items: center;
     margin-top: 30px;
-    margin-bottom: none;
-    height: auto;
+    margin-bottom: 20px;
   }
 
   .image img {
-    display: block;
     width: 250px;
   }
 

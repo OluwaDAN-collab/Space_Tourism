@@ -1,11 +1,8 @@
 body {
   background-image: url(/image/background-technology-desktop.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  
 
-  height: 100vh;
-  align-content: center;
+ 
 }
 .logodiv {
   display: flex;
@@ -182,9 +179,7 @@ ul a .active {
   }
   body {
     background-image: url(/image/background-technology-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  
   }
   .navdiv {
     display: flex;

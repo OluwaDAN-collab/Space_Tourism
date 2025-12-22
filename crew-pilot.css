@@ -277,15 +277,14 @@ ul a .active {
     display: none;
   }
   .image {
-    justify-content: center;
-    align-items: center;
+   
     margin-top: 30px;
-    margin-bottom: none;
-    height: auto;
+    margin-bottom: 20px;
+   
   }
 
   .image img {
-    display: block;
+ 
     width: 250px;
   }
 

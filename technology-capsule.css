@@ -1,8 +1,5 @@
 body {
   background-image: url(/image/background-technology-desktop.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 @font-face {
@@ -188,10 +185,6 @@ ul a .active {
   }
   body {
     background-image: url(/image/background-technology-mobile.jpg);
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
 
   .navdiv {
