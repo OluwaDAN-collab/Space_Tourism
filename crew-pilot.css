@@ -169,9 +169,10 @@ ul a .active {
 }
 .textPilot {
   font-family: "Barlow", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
   width: 500px;
+  line-height: 30px;
 }
 
 @media (max-width: 450px) {

@@ -15,6 +15,7 @@ body {
 }
 .parent {
   color: rgb(187, 182, 182);
+  height: 100vh;
 }
 
 .navbar {
@@ -101,6 +102,7 @@ body {
   font-size: 25px;
   color: black;
   font-family: "Barlow", sans-serif;
+  text-decoration: none;
 }
 .explore_text:hover {
   transition: 2s;
@@ -146,7 +148,7 @@ body {
     max-width: 50px;
     right: 0;
     top: 5%;
-    transition: 3s ease;
+    transition: 1s ease;
   }
 
   .hamnav {

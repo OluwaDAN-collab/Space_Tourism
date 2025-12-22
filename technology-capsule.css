@@ -1,8 +1,9 @@
 body {
   background-image: url(/image/background-technology-desktop.jpg);
-   background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 @font-face {
