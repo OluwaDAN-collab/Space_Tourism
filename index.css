@@ -1,5 +1,5 @@
 body {
-  background-image: url(/space-tourism-website-main/image/background-home-desktop.jpg);
+  background-image: url(/image/background-home-desktop.jpg);
 
   background-size: cover;
 }
@@ -85,9 +85,10 @@ body {
 .space {
   font-size: 100px;
   margin: 30px 0px;
+  color: white;
 }
 .sentence {
-  line-height: 25px;
+  line-height: 27px;
 }
 .explore_text {
   border-radius: 125px;
@@ -117,7 +118,7 @@ body {
 }
 @media screen and (max-width: 450px) {
   body {
-    background-image: url(/space-tourism-website-main/image/background-home-mobile.jpg);
+    background-image: url(/image/background-home-mobile.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

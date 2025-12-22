@@ -1,5 +1,8 @@
 body {
-  background-image: url(/space-tourism-website-main/assets/technology/background-technology-desktop.jpg);
+  background-image: url(/image/background-technology-desktop.jpg);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @font-face {
@@ -181,11 +184,11 @@ ul a .active {
 }
 @media screen and (max-width: 450px) {
   body {
-    background-image: url(/space-tourism-website-main/assets/technology/background-technology-mobile.jpg);
-    /* background-size: contain;
+    background-image: url(/image/background-technology-mobile.jpg);
+
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
   }
 
   .navdiv {
@@ -200,6 +203,8 @@ ul a .active {
   .hamdiv {
     display: flex;
     justify-content: right;
+    margin-right: 8px;
+    margin-top: -27px;
   }
   .hamdiv2 {
     position: fixed;
