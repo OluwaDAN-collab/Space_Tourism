@@ -166,7 +166,7 @@ ul a .active {
   width: 400px;
 }
 .second {
-  width: 70%;
+  width: 65%;
   margin: auto;
   margin-top: 80px;
   margin-bottom: -60px;
@@ -178,6 +178,9 @@ ul a .active {
 }
 
 @media screen and (max-width: 450px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
   body {
     background-image: url("/image/background-crew-mobile.jpg");
   }
@@ -292,13 +295,20 @@ ul a .active {
   }
 
   .text h3 {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: -15px;
   }
 
   .text_1 {
     width: auto;
     font-size: 17px;
     line-height: 25px;
+  }
+  .text h1 {
+    font-weight: lighter;
+    font-size: 35px;
   }
 
   .line_btns {
@@ -309,5 +319,8 @@ ul a .active {
   .btn {
     width: 12px;
     height: 12px;
+  }
+  .second {
+    width: 50%;
   }
 }
