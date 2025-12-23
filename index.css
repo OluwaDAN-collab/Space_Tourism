@@ -72,8 +72,7 @@ body {
   padding: 0% 10%;
 }
 .child2 {
-  width: 50%;
-
+  width: 45%;
   padding: 30px 0px;
 }
 .button {
@@ -85,7 +84,7 @@ body {
 }
 .space {
   font-size: 100px;
-  margin: 30px 0px;
+  margin: 25px 0px;
   color: white;
 }
 .sentence {
@@ -119,6 +118,9 @@ body {
   width: 40px;
 }
 @media screen and (max-width: 450px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
   body {
     background-image: url(/image/background-home-mobile.jpg);
     background-size: contain;
