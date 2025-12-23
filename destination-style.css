@@ -9,6 +9,8 @@
 }
 body {
   background-image: url(/image/background-destination-desktop.jpg);
+  height: 100vh;
+  align-content: center;
 }
 .parent {
   height: 100vh;
@@ -257,9 +259,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 200px;
-    /* margin-top: -300px; */
-    margin-top: 20px;
+    height: 250px;
+    margin-top: 40px;
     margin-left: 40px;
   }
 
