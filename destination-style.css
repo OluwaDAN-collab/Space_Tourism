@@ -15,7 +15,7 @@ body {
   width: 100%;
   color: rgb(187, 182, 182);
   font-family: "Barlow", sans-serif;
-  /* padding: 5px 100px; */
+  padding: 5px 10px;
   /* /* background-color: red; */
 }
 
@@ -270,6 +270,10 @@ body {
   .emptydiv {
     display: none;
   }
+  .pick {
+    margin-left: 0px;
+    text-align: center;
+  }
   .planet {
     margin-top: 20px;
     display: block;
@@ -298,12 +302,12 @@ body {
     margin-bottom: 30px;
     margin-left: 40px;
   }
+
   .plannet_name {
     font-size: 70px;
-    width: 70%;
-    margin: auto;
+    width: 100%;
+    text-align: center;
     font-weight: lighter;
-    color: white;
   }
 
   .border {
