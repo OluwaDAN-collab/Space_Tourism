@@ -107,8 +107,6 @@ ul a .active {
 .image img {
   max-width: 450px;
   display: block;
-  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 }
 
 .line_btns_1 {
@@ -297,7 +295,7 @@ ul a .active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-       height: 250px;
+    height: 250px;
     margin-top: 40px;
     margin-left: 40px;
   }
@@ -309,14 +307,11 @@ ul a .active {
     display: none;
   }
   .image {
-   
     margin-top: 30px;
     margin-bottom: 20px;
-   
   }
 
   .image img {
- 
     width: 250px;
   }
 

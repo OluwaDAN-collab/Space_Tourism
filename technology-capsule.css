@@ -1,5 +1,6 @@
 body {
   background-image: url(/image/background-technology-desktop.jpg);
+  height: 100vh;
 }
 
 @font-face {
