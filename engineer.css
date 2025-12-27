@@ -110,8 +110,6 @@ ul a .active {
 .image img {
   max-width: 450px;
   display: block;
-  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 }
 
 .line_btns {
