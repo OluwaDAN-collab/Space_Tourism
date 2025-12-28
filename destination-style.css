@@ -16,7 +16,6 @@ body {
   color: rgb(187, 182, 182);
   font-family: "Barlow", sans-serif;
   padding: 5px 10px;
-  /* /* background-color: red; */
 }
 
 .logodiv {
@@ -82,14 +81,12 @@ body {
   width: 100%;
   height: 400px;
   margin-top: 70px;
-  /* background-color: yellow; */
   display: flex;
 }
 
 .plannet_image {
   width: 50%;
   height: inherit;
-  /* background-color: red; */
 }
 
 .image {
@@ -101,15 +98,12 @@ body {
 .about_plannet {
   width: 50%;
   height: inherit;
-  /* color: red; */
-  /* background-color: blue; */
   padding: 5px;
 }
 
 .plannet_nav {
   width: 80%;
   height: 20px;
-  /* background-color: yellow; */
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -167,6 +161,7 @@ body {
   font-size: 30px;
   margin-bottom: 30px;
 }
+
 /* mobile */
 
 @media screen and (max-width: 450px) {
@@ -180,7 +175,6 @@ body {
   }
   .parent {
     height: 100vh;
-    /* padding: 35px; */
   }
   .secondparent {
     display: flex;
@@ -258,7 +252,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
-    /* margin-top: -300px; */
     margin-top: 20px;
     margin-left: 40px;
   }
@@ -290,9 +283,7 @@ body {
   }
   .image {
     width: 80%;
-
     height: 70%;
-    /* object-fit: contain; */
   }
   .about_plannet {
     width: 100%;
