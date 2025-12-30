@@ -1,9 +1,8 @@
 body {
   background-image: url(/image/background-technology-desktop.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
+  
+
+ 
 }
 .logodiv {
   display: flex;
@@ -180,9 +179,7 @@ ul a .active {
   }
   body {
     background-image: url(/image/background-technology-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  
   }
   .navdiv {
     display: flex;
@@ -246,6 +243,7 @@ ul a .active {
     right: -300px;
     transition: 3s ease;
     color: rgb(15, 15, 15);
+    justify-content: start;
   }
 
   .ulbar {
@@ -253,8 +251,8 @@ ul a .active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 200px;
-    margin-top: -300px;
+    height: 250px;
+    margin-top: 40px;
   }
   .logodiv {
     margin-top: 20px;
