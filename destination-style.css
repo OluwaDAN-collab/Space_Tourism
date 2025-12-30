@@ -82,6 +82,7 @@ body {
   height: 400px;
   margin-top: 70px;
   display: flex;
+  /* background-color: red; */
 }
 
 .plannet_image {
