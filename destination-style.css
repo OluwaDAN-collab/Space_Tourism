@@ -17,8 +17,7 @@ body {
   width: 100%;
   color: rgb(187, 182, 182);
   font-family: "Barlow", sans-serif;
-  /* padding: 5px 100px; */
-  /* /* background-color: red; */
+  padding: 5px 10px;
 }
 
 .logodiv {
@@ -84,14 +83,13 @@ body {
   width: 100%;
   height: 400px;
   margin-top: 70px;
-  /* background-color: yellow; */
   display: flex;
+  /* background-color: red; */
 }
 
 .plannet_image {
   width: 50%;
   height: inherit;
-  /* background-color: red; */
 }
 
 .image {
@@ -103,15 +101,12 @@ body {
 .about_plannet {
   width: 50%;
   height: inherit;
-  /* color: red; */
-  /* background-color: blue; */
   padding: 5px;
 }
 
 .plannet_nav {
   width: 80%;
   height: 20px;
-  /* background-color: yellow; */
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -169,6 +164,7 @@ body {
   font-size: 30px;
   margin-bottom: 30px;
 }
+
 /* mobile */
 
 @media screen and (max-width: 450px) {
@@ -182,7 +178,6 @@ body {
   }
   .parent {
     height: 100vh;
-    /* padding: 35px; */
   }
   .secondparent {
     display: flex;
@@ -271,6 +266,10 @@ body {
   .emptydiv {
     display: none;
   }
+  .pick {
+    margin-left: 0px;
+    text-align: center;
+  }
   .planet {
     margin-top: 20px;
     display: block;
@@ -287,9 +286,7 @@ body {
   }
   .image {
     width: 80%;
-
     height: 70%;
-    /* object-fit: contain; */
   }
   .about_plannet {
     width: 100%;
@@ -299,12 +296,12 @@ body {
     margin-bottom: 30px;
     margin-left: 40px;
   }
+
   .plannet_name {
     font-size: 70px;
-    width: 70%;
-    margin: auto;
+    width: 100%;
+    text-align: center;
     font-weight: lighter;
-    color: white;
   }
 
   .border {
