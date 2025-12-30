@@ -357,4 +357,43 @@ ul a .active {
   .second {
     width: 50%;
   }
+
+  .nav-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .prev,
+  .next {
+    cursor: pointer;
+    padding: 16px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+    background: var(--rgba-400);
+    text-decoration: none;
+  }
+
+  .prev {
+    position: absolute;
+    left: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+  }
+
+  .next {
+    position: absolute;
+    right: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+  }
+
+  .prev:hover,
+  .next:hover {
+    background: var(--rgba-500);
+  }
 }
