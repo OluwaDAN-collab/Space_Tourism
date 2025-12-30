@@ -357,14 +357,14 @@ ul a .active {
   .prev {
     position: absolute;
     left: 10px;
-    top: 60%;
+    /* top: 60%; */
     transform: translateY(-50%);
   }
 
   .next {
     position: absolute;
     right: 10px;
-    top: 60%;
+    /* top: 60%; */
     transform: translateY(-50%);
   }
 
