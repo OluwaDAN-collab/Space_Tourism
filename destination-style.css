@@ -173,8 +173,6 @@ body {
   }
   body {
     background-image: url(/image/background-destination-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .parent {
     height: 100vh;
