@@ -109,7 +109,6 @@ ul a .active {
 .image img {
   max-width: 450px;
   display: block;
- 
 }
 
 .line_btns {
@@ -191,7 +190,7 @@ ul a .active {
   margin-bottom: 20px;
   width: 500px;
   line-height: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .image2 {
   width: 350px;
@@ -319,7 +318,7 @@ ul a .active {
 
   .text {
     margin-left: 0;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 0 20px;
   }
 

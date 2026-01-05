@@ -96,7 +96,6 @@ ul a .active {
 .image img {
   max-width: 450px;
   display: block;
-
 }
 
 .line_btns_1 {
@@ -174,8 +173,8 @@ ul a .active {
   font-size: 18px;
   margin-bottom: 20px;
   width: 500px;
-  line-height: 30px;
-  margin-top: 20px;
+  line-height: 32px;
+  margin-top: 30px;
 }
 .image2 {
   width: 400px;
@@ -280,7 +279,7 @@ ul a .active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-      height: 250px;
+    height: 250px;
     margin-top: 40px;
     margin-left: 40px;
   }
@@ -292,14 +291,11 @@ ul a .active {
     display: none;
   }
   .image {
-   
     margin-top: 30px;
     margin-bottom: 20px;
-    
   }
 
   .image img {
-    
     width: 250px;
   }
 
@@ -340,7 +336,7 @@ ul a .active {
     height: 12px;
   }
   .second {
-    width: 50%;
+    width: 55%;
   }
 
   .nav-arrows {
